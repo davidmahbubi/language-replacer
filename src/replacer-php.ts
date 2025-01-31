@@ -31,5 +31,6 @@ for (const viewFile of viewFiles) {
     }
   }
   await Bun.write(file, text)
-  console.log('Success')
 }
+
+console.log('Success')
